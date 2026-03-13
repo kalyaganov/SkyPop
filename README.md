@@ -29,3 +29,22 @@ flutter run
 flutter analyze
 flutter test
 ```
+
+## CI/CD
+
+This project uses GitHub Actions for continuous integration and deployment:
+
+- **CI Workflow**: Runs on every push and pull request to `main`/`master`
+  - Code analysis with `flutter analyze`
+  - Unit tests with `flutter test`
+  - Debug APK build to verify Android compilation
+
+- **Release Workflow**: Triggered when a GitHub release is published
+  - Builds a release APK
+  - Automatically attaches the APK to the GitHub release
+
+To create a new release:
+1. Go to repository → Releases → Draft a new release
+2. Create a tag (e.g., `v1.0.1`)
+3. Publish the release
+4. The APK will be built and attached automatically
