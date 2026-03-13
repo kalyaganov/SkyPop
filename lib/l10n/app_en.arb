@@ -1,0 +1,155 @@
+{
+  "@@locale": "en",
+  "appTitle": "SkyPop Weather",
+  "@appTitle": {},
+  "loadingForecast": "Mixing the forecast colors...",
+  "@loadingForecast": {},
+  "loadingLocation": "Finding your current sky...",
+  "@loadingLocation": {},
+  "errorForecastTitle": "Forecast hiccup",
+  "@errorForecastTitle": {},
+  "errorLocationTitle": "Location needed",
+  "@errorLocationTitle": {},
+  "tryAgain": "Try again",
+  "@tryAgain": {},
+  "nextHours": "Next hours",
+  "@nextHours": {},
+  "todayDetails": "Today details",
+  "@todayDetails": {},
+  "sevenDayForecast": "7-day candy forecast",
+  "@sevenDayForecast": {},
+  "feelsLike": "Feels like {temp}° · H {high}°  L {low}°",
+  "@feelsLike": {
+    "placeholders": {
+      "temp": {},
+      "high": {},
+      "low": {}
+    }
+  },
+  "saved": "Saved",
+  "@saved": {},
+  "save": "Save",
+  "@save": {},
+  "humidity": "{value}% humidity",
+  "@humidity": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "humidityLabel": "Humidity",
+  "@humidityLabel": {},
+  "breeze": "{value} km/h breeze",
+  "@breeze": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "rain": "{value}% rain",
+  "@rain": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "savedCities": "Saved cities",
+  "@savedCities": {},
+  "savedCitiesEmpty": "Save the cities you love and bounce between forecasts in one tap.",
+  "@savedCitiesEmpty": {},
+  "wind": "Wind",
+  "@wind": {},
+  "windValue": "{value} km/h",
+  "@windValue": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "pressure": "Pressure",
+  "@pressure": {},
+  "pressureValue": "{value} hPa",
+  "@pressureValue": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "clouds": "Clouds",
+  "@clouds": {},
+  "cloudsValue": "{value}%",
+  "@cloudsValue": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "precip": "Precip",
+  "@precip": {},
+  "precipValue": "{value} mm",
+  "@precipValue": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "sunrise": "Sunrise",
+  "@sunrise": {},
+  "sunset": "Sunset",
+  "@sunset": {},
+  "direction": "Direction",
+  "@direction": {},
+  "directionValue": "{value}°",
+  "@directionValue": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "searchCity": "Search a city",
+  "@searchCity": {},
+  "searchHint": "Tokyo, Paris, Cape Town...",
+  "@searchHint": {},
+  "searchEmpty": "Start typing to explore colorful skies around the world.",
+  "@searchEmpty": {},
+  "searchNoResults": "No city matches yet. Try another spelling.",
+  "@searchNoResults": {},
+  "sunnyGlow": "Sunny glow",
+  "@sunnyGlow": {},
+  "clearNight": "Clear night",
+  "@clearNight": {},
+  "playfulClouds": "Playful clouds",
+  "@playfulClouds": {},
+  "cottonSky": "Cotton sky",
+  "@cottonSky": {},
+  "mistyMood": "Misty mood",
+  "@mistyMood": {},
+  "snowConfetti": "Snow confetti",
+  "@snowConfetti": {},
+  "thunderParty": "Thunder party",
+  "@thunderParty": {},
+  "rainConfetti": "Rain confetti",
+  "@rainConfetti": {},
+  "clearSky": "Clear sky",
+  "@clearSky": {},
+  "mostlyClear": "Mostly clear",
+  "@mostlyClear": {},
+  "partlyCloudy": "Partly cloudy",
+  "@partlyCloudy": {},
+  "overcast": "Overcast",
+  "@overcast": {},
+  "foggy": "Foggy",
+  "@foggy": {},
+  "drizzle": "Drizzle",
+  "@drizzle": {},
+  "freezingDrizzle": "Freezing drizzle",
+  "@freezingDrizzle": {},
+  "rainWeather": "Rain",
+  "@rainWeather": {},
+  "freezingRain": "Freezing rain",
+  "@freezingRain": {},
+  "snow": "Snow",
+  "@snow": {},
+  "snowGrains": "Snow grains",
+  "@snowGrains": {},
+  "rainShowers": "Rain showers",
+  "@rainShowers": {},
+  "snowShowers": "Snow showers",
+  "@snowShowers": {},
+  "thunderstorm": "Thunderstorm",
+  "@thunderstorm": {},
+  "weatherShift": "Weather shift",
+  "@weatherShift": {}
+}
