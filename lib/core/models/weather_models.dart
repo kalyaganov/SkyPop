@@ -61,14 +61,24 @@ class WeatherBundle {
         weatherCode: (currentJson['weather_code'] as num).toInt(),
         time: DateTime.parse(currentJson['time'] as String),
       ),
-      hourly: List.generate(hourlyTimes.length, (index) {
-        return HourlyForecast(
-          time: DateTime.parse(hourlyTimes[index]),
-          temperature: hourlyTemps[index].toDouble(),
-          weatherCode: hourlyCodes[index].toInt(),
-          precipitationProbability: hourlyPrecip[index].toInt(),
-        );
-      }),
+      hourly: () {
+        final now = DateTime.parse(currentJson['time'] as String);
+        final forecasts = <HourlyForecast>[];
+        for (var i = 0; i < hourlyTimes.length; i++) {
+          final time = DateTime.parse(hourlyTimes[i]);
+          if (time.isAfter(now)) {
+            forecasts.add(
+              HourlyForecast(
+                time: time,
+                temperature: hourlyTemps[i].toDouble(),
+                weatherCode: hourlyCodes[i].toInt(),
+                precipitationProbability: hourlyPrecip[i].toInt(),
+              ),
+            );
+          }
+        }
+        return forecasts;
+      }(),
       daily: List.generate(dailyTimes.length, (index) {
         return DailyForecast(
           date: DateTime.parse(dailyTimes[index]),

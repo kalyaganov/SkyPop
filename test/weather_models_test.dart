@@ -53,7 +53,8 @@ void main() {
     });
 
     expect(bundle.current.temperature, 25.4);
-    expect(bundle.hourly.length, 2);
+    expect(bundle.hourly.length, 1);
+    expect(bundle.hourly.first.time.hour, 13);
     expect(bundle.daily.first.maxTemperature, 28.0);
     expect(weatherDescription(bundle.daily.last.weatherCode), 'Rain');
   });
